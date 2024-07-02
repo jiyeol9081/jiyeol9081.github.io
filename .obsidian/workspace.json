@@ -154,7 +154,9 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-rich-links:Rich Links": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
   "active": "e85638fcd2d3f4e4",
