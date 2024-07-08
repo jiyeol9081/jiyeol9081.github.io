@@ -1,4 +1,17 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiyeol9081.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiyeol9081.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 07 Jul 2024 04:53:35 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 07 Jul 2024 04:53:35 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[test]]></title><description><![CDATA[ 
- <br>안녕하세요!]]></description><link>test.html</link><guid isPermaLink="false">test.md</guid><pubDate>Sun, 07 Jul 2024 04:51:05 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
- <br>]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Wed, 26 Jun 2024 13:06:53 GMT</pubDate></item><item><title><![CDATA[Obsidian template for using github.io]]></title><description><![CDATA[ 
- <br>]]></description><link>readme.html</link><guid isPermaLink="false">README.md</guid><pubDate>Wed, 26 Jun 2024 12:40:01 GMT</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiyeol9081.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiyeol9081.github.io</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 08 Jul 2024 13:27:32 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 08 Jul 2024 13:27:31 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[모각코 유틸 클래스 팀 소개]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>니다러닏라ㅓㄴㄷ
+<br>ㄴ디라ㅓㄴ딜다넌ㄷ
+<br><br>
+<br>7월 **일
+<br><br>
+<br>회고회고회고
+]]></description><link>team\utilclass\index.html</link><guid isPermaLink="false">team/UtilClass/index.md</guid><pubDate>Mon, 08 Jul 2024 13:21:32 GMT</pubDate></item><item><title><![CDATA[7월 9일 모각코]]></title><description><![CDATA[ 
+ ]]></description><link>7월-9일-모각코.html</link><guid isPermaLink="false">7월 9일 모각코.md</guid><pubDate>Mon, 08 Jul 2024 13:23:05 GMT</pubDate></item><item><title><![CDATA[모각코 활동 기록]]></title><description><![CDATA[ 
+ <br><br>모각코 활동을 소개하는 페이지<br>
+<br>2024년 하계 모각코 - <a class="internal-link" data-href="/team/utilclass/index.html" href="\team\utilclass\index.html" target="_self" rel="noopener">유틸 클래스 팀</a>
+
+<br><a class="internal-link" data-href="/7월-9일-모각코.html" href="\7월-9일-모각코.html" target="_self" rel="noopener">7월 9일 모각코</a>
+
+
+]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Mon, 08 Jul 2024 13:26:52 GMT</pubDate></item></channel></rss>
