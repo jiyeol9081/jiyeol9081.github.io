@@ -40,7 +40,9 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//team",
+    "//team/team/UtilClass"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
