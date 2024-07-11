@@ -42,7 +42,9 @@
   "expandedSpaces": [
     "/",
     "//team",
-    "//team/team/UtilClass"
+    "//team/team/UtilClass",
+    "//docs/docs/team",
+    "//docs/docs/team/docs/team/utilclass"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
