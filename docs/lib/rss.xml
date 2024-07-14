@@ -1,15 +1,85 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiyeol9081.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiyeol9081.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 11 Jul 2024 06:24:38 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 11 Jul 2024 06:24:36 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[7월 6일 모각코]]></title><description><![CDATA[ 
- ]]></description><link>team\utilclass\7월-6일-모각코.html</link><guid isPermaLink="false">team/UtilClass/7월 6일 모각코.md</guid><pubDate>Mon, 08 Jul 2024 13:23:05 GMT</pubDate></item><item><title><![CDATA[7월 11일 모각코]]></title><description><![CDATA[ 
- ]]></description><link>team\utilclass\7월-11일-모각코.html</link><guid isPermaLink="false">team/UtilClass/7월 11일 모각코.md</guid><pubDate>Thu, 11 Jul 2024 06:16:18 GMT</pubDate></item><item><title><![CDATA[모각코 유틸 클래스 팀 소개]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiyeol9081.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiyeol9081.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 14 Jul 2024 07:49:47 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 14 Jul 2024 07:49:46 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[박지열의 개인 블로그]]></title><description><![CDATA[ 
+ <br><br>
+<br>블로그 만들기
+<br>음성 패턴 인식에 대해 공부하기
+<br>각 역할 분배하기
+<br><br>
+<br>깃허브 블로그를 만들었으며, 각 팀원들도 네이버, 깃허브 등 자신만의 블로그를 제작함.
+<br>음성 패턴 인식 관련 공부 자료
+<br>
+<br><a data-tooltip-position="top" aria-label="https://www.skelterlabs.com/blog/speechai" rel="noopener" class="external-link" href="https://www.skelterlabs.com/blog/speechai" target="_blank">Skelter Labs Blog - 음성인식, 화자식별, 화자분할... 알고보면 모두 다른 음성 AI</a>
+<br><a rel="noopener" class="external-link" href="https://ysg2997.tistory.com/51" target="_blank">https://ysg2997.tistory.com/51</a>
+<br><br>
+<br>박지열(팀장) - 화자분할(Speaker Diarization)
+<br>이동순 - 화자검증(Speaker Verification)
+<br>김민준 - 화자식별(Speaker Identification)
+<br>정수빈 - 화자분리(Speaker Seperation)
+<br><br>
+<br>각자 맡은 음성 패턴 인식 파트 공부하기
+<br><br>
+<br>화자분할(Speaker Diarization): 두 사람 이상이 대화를 하는 경우 각 화자를 구분하는 기술로, 화자가 다르다는 것을 인식하기 위한 기술이다.<br>
+<img alt="Pasted image 20240714164025.png" src="lib\media\pasted-image-20240714164025.png"><br>
+화자 분할 과정<br>
+<img alt="Pasted image 20240714164109.png" src="lib\media\pasted-image-20240714164109.png">
+<br>
+<br>Front-End Processing<br>
+음성 향상 / 잡음 / 반향 제거 등의 전처리를 수행하며<br>
+중첩되는 음성 영역을 각각 분리한다. (Speech separation)
+<br>Speech Activity Detection<br>
+= voice activity detection (VAD 라고 더 많이 사용한다고 함)<br>
+실제 음성과 배경 소음(noise)을 구분하여 실제 음성을 얻는다.
+<br>Segmentation (음성 분할)<br>
+입력 오디오 스트림을 여러 세그먼트로 나누어 화자 균일 세그먼트를 얻는다.<br>
+아래 예시 그림의 경우, 3명의 화자의 음성을 균일하게 나눈 것이다.<br>
+<img alt="Pasted image 20240714164342.png" src="lib\media\pasted-image-20240714164342.png">
+<br>Speaker Embedding<br>
+각 세그먼트의 임베딩을 구한다. 예) i-vector, DNN-based embeddings…
+<br>Clustering<br>
+각각의 임베딩 값을 k개의 클러스터로 레이블링 한다.<br>
+화자 분할의 경우 다음 2가지 클러스터링 방법을 이용한다.
+
+<br>Agglomerative hierarchical clustering (AHC)
+<br>Spectral clustering
+
+
+<br>Post Processing<br>
+최종적으로 결과를 더 잘 나타내기 위해 다시 한번 정제하는 과정이다.<br>
+이 과정을 마치면 화자 분할의 공식 포맷인 'RTTM' 포맷에 맞춰 화자 분할 정보를 출력하는데, 이 RTTM 파일로부터 '누가 언제부터 언제까지 말했는가' 를 알 수 있다.<br>
+<img alt="Pasted image 20240714164931.png" src="lib\media\pasted-image-20240714164931.png">
+]]></description><link>jiyeol'sblog\박지열의-개인-블로그.html</link><guid isPermaLink="false">jiyeol'sblog/박지열의 개인 블로그.md</guid><pubDate>Sun, 14 Jul 2024 07:49:35 GMT</pubDate><enclosure url="lib\media\pasted-image-20240714164025.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240714164025.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[7월 6일 모각코]]></title><description><![CDATA[ 
+ <br>
+<br>
+활동 일시: 7월 6일(토) / 22:00 ~ 01:00 
+
+<br>
+1주차 목표: 블로그 만들고, 음성 패턴 인식 개념과 종류에 대해 공부하기
+
+<br>박지열(팀장):<br>
+이동순: <a rel="noopener" class="external-link" href="https://github.com/Ledn05/Ledn05.github.io" target="_blank">https://github.com/Ledn05/Ledn05.github.io</a><br>
+김민준: <a rel="noopener" class="external-link" href="https://github.com/Blummerhen/Blummerhen.github.io" target="_blank">https://github.com/Blummerhen/Blummerhen.github.io</a><br>
+정수빈: <a data-tooltip-position="top" aria-label="https://m.blog.naver.com/qwert0483/223509245542" rel="noopener" class="external-link" href="https://m.blog.naver.com/qwert0483/223509245542" target="_blank">1주차 : 네이버 블로그 (naver.com)</a><br><img alt="Pasted image 20240711161852.png" src="lib\media\pasted-image-20240711161852.png">]]></description><link>team\utilclass\7월-6일-모각코.html</link><guid isPermaLink="false">team/UtilClass/7월 6일 모각코.md</guid><pubDate>Sun, 14 Jul 2024 03:03:28 GMT</pubDate><enclosure url="lib\media\pasted-image-20240711161852.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240711161852.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[7월 11일 모각코]]></title><description><![CDATA[ 
+ <br>
+<br>
+활동 일시: 7월 11일(목) / 14:00 ~ 17:00
+
+<br>
+2주차 목표: 각자 맡은 음성 패턴 인식 파트 공부하기
+
+<br>박지열(팀장):<br>
+이동순: <a rel="noopener" class="external-link" href="https://github.com/Ledn05/Ledn05.github.io" target="_blank">https://github.com/Ledn05/Ledn05.github.io</a><br>
+김민준: <a rel="noopener" class="external-link" href="https://github.com/Blummerhen/Blummerhen.github.io" target="_blank">https://github.com/Blummerhen/Blummerhen.github.io</a><br>
+정수빈: <a data-tooltip-position="top" aria-label="https://m.blog.naver.com/qwert0483/223509271740" rel="noopener" class="external-link" href="https://m.blog.naver.com/qwert0483/223509271740" target="_blank">2주차 : 네이버 블로그 (naver.com)</a><br><img alt="Pasted image 20240711162123.png" src="lib\media\pasted-image-20240711162123.png">]]></description><link>team\utilclass\7월-11일-모각코.html</link><guid isPermaLink="false">team/UtilClass/7월 11일 모각코.md</guid><pubDate>Sun, 14 Jul 2024 03:02:29 GMT</pubDate><enclosure url="lib\media\pasted-image-20240711162123.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240711162123.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[모각코 유틸 클래스 팀 소개]]></title><description><![CDATA[ 
  <br><br>
 <br>팀장: 박지열
 <br>팀원: 이동순, 정수빈, 김민준 
-<br>목적: 데이터를 전처리하고 음성패턴 인식 코드를 구현함
+<br>목적: 음성 데이터를 전처리하고, 각 음성 패턴 데이터를 화자에 따라 인식, 인지, 분리, 분할하는 코드를 구현함
 <br><br>
-<br>7월 6일 : 화자 분석, 인식 등등 
+<br>7월 6일 - 1주차: 블로그 만들고, 음성 패턴 인식 개념과 종류에 대해 공부하기
+<br>7월 11일 - 2주차: 각자 맡은 음성 패턴 인식 파트 공부하기
 <br><br>
 <br>회고회고회고
-]]></description><link>team\utilclass\모각코-유틸-클래스-팀-소개.html</link><guid isPermaLink="false">team/UtilClass/모각코 유틸 클래스 팀 소개.md</guid><pubDate>Thu, 11 Jul 2024 06:23:49 GMT</pubDate></item><item><title><![CDATA[모각코 활동 기록]]></title><description><![CDATA[ 
+]]></description><link>team\utilclass\모각코-유틸-클래스-팀-소개.html</link><guid isPermaLink="false">team/UtilClass/모각코 유틸 클래스 팀 소개.md</guid><pubDate>Thu, 11 Jul 2024 07:23:50 GMT</pubDate></item><item><title><![CDATA[Untitled]]></title><description><![CDATA[ 
+ ]]></description><link>untitled.html</link><guid isPermaLink="false">Untitled.md</guid><pubDate>Sun, 14 Jul 2024 02:57:19 GMT</pubDate></item><item><title><![CDATA[모각코 활동 기록]]></title><description><![CDATA[ 
  <br><br>유틸 클래스 팀의 모각코 활동을 소개하는 페이지<br><br>
 <br><a data-tooltip-position="top" aria-label="모각코 유틸 클래스 팀 소개" data-href="모각코 유틸 클래스 팀 소개" href="team\utilclass\모각코-유틸-클래스-팀-소개.html" class="internal-link" target="_self" rel="noopener">팀 소개</a>
 <br>
