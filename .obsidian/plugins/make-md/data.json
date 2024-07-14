@@ -40,11 +40,15 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
     "//team",
     "//team/team/UtilClass",
     "//docs/docs/team",
-    "//docs/docs/team/docs/team/utilclass"
+    "//docs/docs/team/docs/team/utilclass",
+    "//image",
+    "//docs/docs/jiyeol'sblog",
+    "/",
+    "//jiyeol'sblog",
+    "//docs"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
