@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiyeol9081.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiyeol9081.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 16 Jul 2024 05:53:36 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 16 Jul 2024 05:53:35 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[2주차 활동 내용]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiyeol9081.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiyeol9081.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 23 Jul 2024 06:13:59 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 23 Jul 2024 06:13:57 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[2주차 활동 내용]]></title><description><![CDATA[ 
  <br><br>
 <br>각자 맡은 음성 패턴 인식 파트 공부하기
 <br><br>
@@ -31,7 +31,12 @@
 최종적으로 결과를 더 잘 나타내기 위해 다시 한번 정제하는 과정이다.<br>
 이 과정을 마치면 화자 분할의 공식 포맷인 'RTTM' 포맷에 맞춰 화자 분할 정보를 출력하는데, 이 RTTM 파일로부터 '누가 언제부터 언제까지 말했는가' 를 알 수 있다.<br>
 <img alt="image2.4.png" src="lib\media\image2.4.png">
-]]></description><link>jiyeol'sblog\2주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/2주차 활동 내용.md</guid><pubDate>Tue, 16 Jul 2024 05:52:01 GMT</pubDate><enclosure url="lib\media\image2.1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image2.1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[7월 6일 모각코]]></title><description><![CDATA[ 
+]]></description><link>jiyeol'sblog\2주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/2주차 활동 내용.md</guid><pubDate>Tue, 23 Jul 2024 06:10:38 GMT</pubDate><enclosure url="lib\media\image2.1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image2.1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[3주차 활동 내용]]></title><description><![CDATA[ 
+ <br><br>
+<br>음성 패턴 인식 라이브러리 공부하기
+<br><br>
+<br>
+]]></description><link>jiyeol'sblog\3주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/3주차 활동 내용.md</guid><pubDate>Tue, 23 Jul 2024 06:13:33 GMT</pubDate></item><item><title><![CDATA[7월 6일 모각코]]></title><description><![CDATA[ 
  <br><br>
 <br>
 활동 일시: 7월 6일(토) / 22:00 ~ 01:00 
@@ -41,10 +46,10 @@
 
 <br><br>
 <br><a data-tooltip-position="top" aria-label="https://jiyeol9081.github.io/jiyeol'sblog/1%EC%A3%BC%EC%B0%A8-%ED%99%9C%EB%8F%99-%EB%82%B4%EC%9A%A9" rel="noopener" class="external-link" href="https://jiyeol9081.github.io/jiyeol'sblog/1%EC%A3%BC%EC%B0%A8-%ED%99%9C%EB%8F%99-%EB%82%B4%EC%9A%A9" target="_blank">박지열(팀장) 1주차 활동 내용</a>
-<br><a data-tooltip-position="top" aria-label="https://ledn05.tistory.com" rel="noopener" class="external-link" href="https://ledn05.tistory.com" target="_blank">이동순 1주차 활동 내용</a>
+<br><a data-tooltip-position="top" aria-label="https://ledn05.tistory.com/1" rel="noopener" class="external-link" href="https://ledn05.tistory.com/1" target="_blank">이동순 1주차 활동 내용</a>
 <br><a data-tooltip-position="top" aria-label="https://blummerhen.tistory.com/1" rel="noopener" class="external-link" href="https://blummerhen.tistory.com/1" target="_blank">김민준 1주차 활동 내용</a>
 <br><a data-tooltip-position="top" aria-label="https://m.blog.naver.com/qwert0483/223509245542" rel="noopener" class="external-link" href="https://m.blog.naver.com/qwert0483/223509245542" target="_blank">정수빈 1주차 활동 내용</a>
-<br><br><img alt="image1.png" src="lib\media\image1.png">]]></description><link>team\utilclass\7월-6일-모각코.html</link><guid isPermaLink="false">team/UtilClass/7월 6일 모각코.md</guid><pubDate>Tue, 16 Jul 2024 05:51:13 GMT</pubDate><enclosure url="lib\media\image1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[7월 11일 모각코]]></title><description><![CDATA[ 
+<br><br><img alt="image1.png" src="lib\media\image1.png">]]></description><link>team\utilclass\7월-6일-모각코.html</link><guid isPermaLink="false">team/UtilClass/7월 6일 모각코.md</guid><pubDate>Tue, 23 Jul 2024 06:12:50 GMT</pubDate><enclosure url="lib\media\image1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[7월 11일 모각코]]></title><description><![CDATA[ 
  <br><br>
 <br>
 활동 일시: 7월 11일(목) / 14:00 ~ 17:00
@@ -54,10 +59,23 @@
 
 <br><br>
 <br><a data-tooltip-position="top" aria-label="https://jiyeol9081.github.io/jiyeol'sblog/2%EC%A3%BC%EC%B0%A8-%ED%99%9C%EB%8F%99-%EB%82%B4%EC%9A%A9" rel="noopener" class="external-link" href="https://jiyeol9081.github.io/jiyeol'sblog/2%EC%A3%BC%EC%B0%A8-%ED%99%9C%EB%8F%99-%EB%82%B4%EC%9A%A9" target="_blank">박지열(팀장) 2주차 활동 내용</a>
-<br><a data-tooltip-position="top" aria-label="https://ledn05.tistory.com" rel="noopener" class="external-link" href="https://ledn05.tistory.com" target="_blank">이동순 2주차 활동 내용</a>
+<br><a data-tooltip-position="top" aria-label="https://ledn05.tistory.com/2" rel="noopener" class="external-link" href="https://ledn05.tistory.com/2" target="_blank">이동순 2주차 활동 내용</a>
 <br><a data-tooltip-position="top" aria-label="https://blummerhen.tistory.com/2" rel="noopener" class="external-link" href="https://blummerhen.tistory.com/2" target="_blank">김민준 2주차 활동 내용</a>
 <br><a data-tooltip-position="top" aria-label="https://m.blog.naver.com/qwert0483/223509271740" rel="noopener" class="external-link" href="https://m.blog.naver.com/qwert0483/223509271740" target="_blank">정수빈 2주차 활동 내용</a>
-<br><br><img alt="image2.png" src="lib\media\image2.png">]]></description><link>team\utilclass\7월-11일-모각코.html</link><guid isPermaLink="false">team/UtilClass/7월 11일 모각코.md</guid><pubDate>Tue, 16 Jul 2024 05:51:23 GMT</pubDate><enclosure url="lib\media\image2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image2.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[모각코 유틸 클래스 팀 소개]]></title><description><![CDATA[ 
+<br><br><img alt="image2.png" src="lib\media\image2.png">]]></description><link>team\utilclass\7월-11일-모각코.html</link><guid isPermaLink="false">team/UtilClass/7월 11일 모각코.md</guid><pubDate>Tue, 23 Jul 2024 06:12:46 GMT</pubDate><enclosure url="lib\media\image2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image2.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[7월 19일 모각코]]></title><description><![CDATA[ 
+ <br><br>
+<br>
+활동 일시: 7월 19일(목) / 14:00 ~ 17:00
+
+<br>
+3주차 목표: 음성 패턴 인식 라이브러리 공부하기
+
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://jiyeol9081.github.io/jiyeol'sblog/3%EC%A3%BC%EC%B0%A8-%ED%99%9C%EB%8F%99-%EB%82%B4%EC%9A%A9" rel="noopener" class="external-link" href="https://jiyeol9081.github.io/jiyeol'sblog/3%EC%A3%BC%EC%B0%A8-%ED%99%9C%EB%8F%99-%EB%82%B4%EC%9A%A9" target="_blank">박지열(팀장) 3주차 활동 내용</a>
+<br><a data-tooltip-position="top" aria-label="https://ledn05.tistory.com/3" rel="noopener" class="external-link" href="https://ledn05.tistory.com/3" target="_blank">이동순 3주차 활동 내용</a>
+<br><a data-tooltip-position="top" aria-label="https://blummerhen.tistory.com/3" rel="noopener" class="external-link" href="https://blummerhen.tistory.com/3" target="_blank">김민준 3주차 활동 내용</a>
+<br><a data-tooltip-position="top" aria-label="https://m.blog.naver.com/qwert0483/223518676900" rel="noopener" class="external-link" href="https://m.blog.naver.com/qwert0483/223518676900" target="_blank">정수빈 3주차 활동 내용</a>
+<br><br><img alt="image3.png" src="lib\media\image3.png">]]></description><link>team\utilclass\7월-19일-모각코.html</link><guid isPermaLink="false">team/UtilClass/7월 19일 모각코.md</guid><pubDate>Tue, 23 Jul 2024 06:12:20 GMT</pubDate><enclosure url="lib\media\image3.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image3.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[모각코 유틸 클래스 팀 소개]]></title><description><![CDATA[ 
  <br><br>
 <br>팀장: 박지열
 <br>팀원: 이동순, 정수빈, 김민준 
@@ -65,13 +83,20 @@
 <br><br>
 <br>7월 6일 /  22:00 ~ 01:00 - 1주차: 블로그 만들고, 음성 패턴 인식 개념과 종류에 대해 공부하기
 <br>7월 11일 / 14:00 ~ 17:00 - 2주차: 각자 맡은 음성 패턴 인식 파트 공부하기
-<br>7월 19일 / 19:00 ~ 22:00 - 3주차:
+<br>7월 19일 / 19:00 ~ 22:00 - 3주차: 음성 패턴 인식 라이브러리 공부하기
 <br>7월 26일 / 19:00 ~ 22:00 - 4주차: 
 <br>8월 2일 / 19:00 ~ 22:00 - 5주차: 
 <br>8월 7일 / 19:00 ~ 22:00 - 6주차: 
 <br><br>
 <br>회고회고회고
-]]></description><link>team\utilclass\모각코-유틸-클래스-팀-소개.html</link><guid isPermaLink="false">team/UtilClass/모각코 유틸 클래스 팀 소개.md</guid><pubDate>Tue, 16 Jul 2024 05:47:50 GMT</pubDate></item><item><title><![CDATA[1주차 활동 내용]]></title><description><![CDATA[ 
+]]></description><link>team\utilclass\모각코-유틸-클래스-팀-소개.html</link><guid isPermaLink="false">team/UtilClass/모각코 유틸 클래스 팀 소개.md</guid><pubDate>Tue, 23 Jul 2024 06:11:38 GMT</pubDate></item><item><title><![CDATA[모각코 활동 기록]]></title><description><![CDATA[ 
+ <br><br>유틸 클래스 팀의 모각코 활동을 소개하는 페이지<br><br>
+<br><a data-tooltip-position="top" aria-label="모각코 유틸 클래스 팀 소개" data-href="모각코 유틸 클래스 팀 소개" href="team\utilclass\모각코-유틸-클래스-팀-소개.html" class="internal-link" target="_self" rel="noopener">팀 소개</a>
+<br>
+<br><a data-tooltip-position="top" aria-label="7월 6일 모각코" data-href="7월 6일 모각코" href="team\utilclass\7월-6일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 1회차</a>
+<br><a data-tooltip-position="top" aria-label="7월 11일 모각코" data-href="7월 11일 모각코" href="team\utilclass\7월-11일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 2회차</a>
+<br><a data-tooltip-position="top" aria-label="7월 19일 모각코" data-href="7월 19일 모각코" href="team\utilclass\7월-19일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 3회차</a>
+]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Fri, 19 Jul 2024 10:09:43 GMT</pubDate></item><item><title><![CDATA[1주차 활동 내용]]></title><description><![CDATA[ 
  <br><br>
 <br>블로그 만들기
 <br>음성 패턴 인식에 대해 공부하기
@@ -87,10 +112,4 @@
 <br>이동순 - 화자검증(Speaker Verification)
 <br>김민준 - 화자식별(Speaker Identification)
 <br>정수빈 - 화자분리(Speaker Seperation)
-]]></description><link>jiyeol'sblog\1주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/1주차 활동 내용.md</guid><pubDate>Sun, 14 Jul 2024 08:30:24 GMT</pubDate></item><item><title><![CDATA[모각코 활동 기록]]></title><description><![CDATA[ 
- <br><br>유틸 클래스 팀의 모각코 활동을 소개하는 페이지<br><br>
-<br><a data-tooltip-position="top" aria-label="모각코 유틸 클래스 팀 소개" data-href="모각코 유틸 클래스 팀 소개" href="team\utilclass\모각코-유틸-클래스-팀-소개.html" class="internal-link" target="_self" rel="noopener">팀 소개</a>
-<br>
-<br><a data-tooltip-position="top" aria-label="7월 6일 모각코" data-href="7월 6일 모각코" href="team\utilclass\7월-6일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 1회차</a>
-<br><a data-tooltip-position="top" aria-label="7월 11일 모각코" data-href="7월 11일 모각코" href="team\utilclass\7월-11일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 2회차</a>
-]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Thu, 11 Jul 2024 06:19:51 GMT</pubDate></item></channel></rss>
+]]></description><link>jiyeol'sblog\1주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/1주차 활동 내용.md</guid><pubDate>Sun, 14 Jul 2024 08:30:24 GMT</pubDate></item></channel></rss>
