@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiyeol9081.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiyeol9081.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 30 Jul 2024 07:34:54 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 30 Jul 2024 07:34:52 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[3주차 활동 내용]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiyeol9081.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiyeol9081.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 30 Jul 2024 07:38:53 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 30 Jul 2024 07:38:50 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[3주차 활동 내용]]></title><description><![CDATA[ 
  <br><br>
 <br>음성 패턴 인식 라이브러리 공부하기
 <br><br>
@@ -40,7 +40,7 @@ STT
 <br>입력으로 받는 음성의 길이에 따라 받아쓰기 속도가 다를 수 있다.
 <br><img alt="image3.7.png" src="lib\media\image3.7.png">
 <br>배치 단위 음성 인식의 Encoder는 아래 그림처럼 전체 음성을 입력으로 받아서 특징을 추출하고, Decoder는 추출된 특징을 기반으로 음성 인식을 수행한다.
-<br><img alt="image3.8.png" src="lib\media\image3.8.png">
+<br><img alt="image3.9.png" src="lib\media\image3.9.png">
 
 
 <br>스트리밍 음성 인식
@@ -48,12 +48,26 @@ STT
 
 <br>스트리밍 음성 인식은 이름에서 알 수 있듯이 스트리밍 형태로 입력되는 형태로 입력되는 음성을 실시간으로 빠르게 받아쓰는 방식이다. 
 <br>전체 음성의 길이와 상관없이 일정한 속도로 입력 받는 음성을 받아쓸 수 있다. 
-<br><img alt="image3.9.png" src="lib\media\image3.9.png">
+<br><img alt="image3.8.png" src="lib\media\image3.8.png">
 <br>스트리밍 음성 인식의 Encoder는 일정한 길이의 단위의 짧은 음성을 받아 짧은 특징을 추출하고, Decoder는 앞서 출력한 글자에서 문맥의 정보를 추출한다. Joint Nerwork는 앞서 추출된 음성 정보와 문맥 정보를 활용해서 최종적으로 다음에 올 글자를 예측한다.
 <br><img alt="image3.10.png" src="lib\media\image3.10.png">
 
 
-]]></description><link>jiyeol'sblog\3주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/3주차 활동 내용.md</guid><pubDate>Tue, 30 Jul 2024 07:32:31 GMT</pubDate><enclosure url="lib\media\image3.1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image3.1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[모각코 활동 기록]]></title><description><![CDATA[ 
+]]></description><link>jiyeol'sblog\3주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/3주차 활동 내용.md</guid><pubDate>Tue, 30 Jul 2024 07:38:01 GMT</pubDate><enclosure url="lib\media\image3.1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image3.1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[모각코 유틸 클래스 팀 소개]]></title><description><![CDATA[ 
+ <br><br>
+<br>팀장: 박지열
+<br>팀원: 이동순, 정수빈, 김민준 
+<br>목적: 음성 데이터를 전처리하고, 각 음성 패턴 데이터를 화자에 따라 인식, 인지, 분리, 분할하는 코드를 구현함
+<br><br>
+<br>7월 6일 /  22:00 ~ 01:00 - 1주차: 블로그 만들고, 음성 패턴 인식 개념과 종류에 대해 공부하기
+<br>7월 11일 / 14:00 ~ 17:00 - 2주차: 각자 맡은 음성 패턴 인식 파트 공부하기
+<br>7월 19일 / 19:00 ~ 22:00 - 3주차: 음성 패턴 인식 라이브러리 공부하기
+<br>7월 26일 / 19:00 ~ 22:00 - 4주차: 
+<br>8월 2일 / 19:00 ~ 22:00 - 5주차: 
+<br>8월 7일 / 19:00 ~ 22:00 - 6주차: 
+<br><br>
+<br>회고회고회고
+]]></description><link>team\utilclass\모각코-유틸-클래스-팀-소개.html</link><guid isPermaLink="false">team/UtilClass/모각코 유틸 클래스 팀 소개.md</guid><pubDate>Tue, 30 Jul 2024 07:38:33 GMT</pubDate></item><item><title><![CDATA[모각코 활동 기록]]></title><description><![CDATA[ 
  <br><br>유틸 클래스 팀의 모각코 활동을 소개하는 페이지<br><br>
 <br><a data-tooltip-position="top" aria-label="모각코 유틸 클래스 팀 소개" data-href="모각코 유틸 클래스 팀 소개" href="team\utilclass\모각코-유틸-클래스-팀-소개.html" class="internal-link" target="_self" rel="noopener">팀 소개</a>
 <br>
@@ -96,21 +110,7 @@ STT
 <br>
 6주차 목표: 
 
-<br>]]></description><link>team\utilclass\8월-9일-모각코.html</link><guid isPermaLink="false">team/UtilClass/8월 9일 모각코.md</guid><pubDate>Tue, 30 Jul 2024 06:58:52 GMT</pubDate></item><item><title><![CDATA[모각코 유틸 클래스 팀 소개]]></title><description><![CDATA[ 
- <br><br>
-<br>팀장: 박지열
-<br>팀원: 이동순, 정수빈, 김민준 
-<br>목적: 음성 데이터를 전처리하고, 각 음성 패턴 데이터를 화자에 따라 인식, 인지, 분리, 분할하는 코드를 구현함
-<br><br>
-<br>7월 6일 /  22:00 ~ 01:00 - 1주차: 블로그 만들고, 음성 패턴 인식 개념과 종류에 대해 공부하기
-<br>7월 11일 / 14:00 ~ 17:00 - 2주차: 각자 맡은 음성 패턴 인식 파트 공부하기
-<br>7월 19일 / 19:00 ~ 22:00 - 3주차: 음성 패턴 인식 라이브러리 공부하기
-<br>7월 26일 / 19:00 ~ 22:00 - 4주차: speech recognition에 대해 공부하기
-<br>8월 2일 / 19:00 ~ 22:00 - 5주차: 코드 짜보고 구현해보기
-<br>8월 7일 / 19:00 ~ 22:00 - 6주차: 
-<br><br>
-<br>회고회고회고
-]]></description><link>team\utilclass\모각코-유틸-클래스-팀-소개.html</link><guid isPermaLink="false">team/UtilClass/모각코 유틸 클래스 팀 소개.md</guid><pubDate>Tue, 30 Jul 2024 06:50:00 GMT</pubDate></item><item><title><![CDATA[2주차 활동 내용]]></title><description><![CDATA[ 
+<br>]]></description><link>team\utilclass\8월-9일-모각코.html</link><guid isPermaLink="false">team/UtilClass/8월 9일 모각코.md</guid><pubDate>Tue, 30 Jul 2024 06:58:52 GMT</pubDate></item><item><title><![CDATA[2주차 활동 내용]]></title><description><![CDATA[ 
  <br><br>
 <br>각자 맡은 음성 패턴 인식 파트 공부하기
 <br><br>
