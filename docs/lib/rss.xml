@@ -1,11 +1,69 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiyeol9081.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiyeol9081.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 30 Jul 2024 07:00:46 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 30 Jul 2024 07:00:42 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[3주차 활동 내용]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiyeol9081.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiyeol9081.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 30 Jul 2024 07:34:54 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 30 Jul 2024 07:34:52 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[3주차 활동 내용]]></title><description><![CDATA[ 
  <br><br>
 <br>음성 패턴 인식 라이브러리 공부하기
 <br><br>
-<br>Speech Recognition
-<br>Librosa
 <br>
-]]></description><link>jiyeol'sblog\3주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/3주차 활동 내용.md</guid><pubDate>Tue, 23 Jul 2024 07:34:52 GMT</pubDate></item><item><title><![CDATA[4주차 활동 내용]]></title><description><![CDATA[ 
+Speech Recognition
+
+<br>SpeechRecognition은 한국어를 포함해 영어, 프랑스어, 중국어 등 다양한 언어의 음성 인식 관련 라이브러리로, 내부적으로 구글, 마이크로소프트, ibm등 빅테크 기업들의 우수한 알고리즘이 사용된 api를 이를 통해 쉽게 사용할 수 있다.<br>
+<img alt="image3.1.png" src="lib\media\image3.1.png"><br>
+위와 같이 설치하고 난 뒤, 사용 예시는 아래와 같다.<br>
+<img alt="image3.2.png" src="lib\media\image3.2.png"><br>
+<img alt="image3.3.png" src="lib\media\image3.3.png"><br>
+Google Web Speech API의 경우 위처럼 audio 파일과 언어를 변수로 지정하면 음성의 텍스트 변환이 가능하다.
+
+
+<br>
+Librosa
+
+<br>Librosa 라이브러리는 음성 데이터를 다루는 대표적인 라이브러리이다. 간단하게 wav파일을 불러와서 파형을 직접 가공할 수도 있고, FFT나 MFCC 등 다양한 형태로 변환하는 기능들도 제공한다.
+
+
+<br>waveform(파형)<br>
+<img alt="image3.4.png" src="lib\media\image3.4.png">
+<br>FFT(Fast Fourier Transform)<br>
+<img alt="image3.5.png" src="lib\media\image3.5.png">
+<br>STFT(Short - Time Fourier Transform)<br>
+<img alt="image3.6.png" src="lib\media\image3.6.png">
+
+
+<br>
+STT
+
+<br>STT는 배치 음성 인식과 스트리밍 음성 인식으로 나뉜다.
+
+
+<br>배치 음성 인식
+
+<br>통상적으로 STT 음성 인식을 말할 때는 배치 음성 인식을 뜻한다.
+<br>긴 길이의 음성의 음성을 한 번에 입력으로 받아 전체 음성에 대해서 한 번에 받아쓰기를 하는 방식다.
+<br>입력으로 받는 음성의 길이에 따라 받아쓰기 속도가 다를 수 있다.
+<br><img alt="image3.7.png" src="lib\media\image3.7.png">
+<br>배치 단위 음성 인식의 Encoder는 아래 그림처럼 전체 음성을 입력으로 받아서 특징을 추출하고, Decoder는 추출된 특징을 기반으로 음성 인식을 수행한다.
+<br><img alt="image3.8.png" src="lib\media\image3.8.png">
+
+
+<br>스트리밍 음성 인식
+
+
+<br>스트리밍 음성 인식은 이름에서 알 수 있듯이 스트리밍 형태로 입력되는 형태로 입력되는 음성을 실시간으로 빠르게 받아쓰는 방식이다. 
+<br>전체 음성의 길이와 상관없이 일정한 속도로 입력 받는 음성을 받아쓸 수 있다. 
+<br><img alt="image3.9.png" src="lib\media\image3.9.png">
+<br>스트리밍 음성 인식의 Encoder는 일정한 길이의 단위의 짧은 음성을 받아 짧은 특징을 추출하고, Decoder는 앞서 출력한 글자에서 문맥의 정보를 추출한다. Joint Nerwork는 앞서 추출된 음성 정보와 문맥 정보를 활용해서 최종적으로 다음에 올 글자를 예측한다.
+<br><img alt="image3.10.png" src="lib\media\image3.10.png">
+
+
+]]></description><link>jiyeol'sblog\3주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/3주차 활동 내용.md</guid><pubDate>Tue, 30 Jul 2024 07:32:31 GMT</pubDate><enclosure url="lib\media\image3.1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image3.1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[모각코 활동 기록]]></title><description><![CDATA[ 
+ <br><br>유틸 클래스 팀의 모각코 활동을 소개하는 페이지<br><br>
+<br><a data-tooltip-position="top" aria-label="모각코 유틸 클래스 팀 소개" data-href="모각코 유틸 클래스 팀 소개" href="team\utilclass\모각코-유틸-클래스-팀-소개.html" class="internal-link" target="_self" rel="noopener">팀 소개</a>
+<br>
+<br><a data-tooltip-position="top" aria-label="7월 6일 모각코" data-href="7월 6일 모각코" href="team\utilclass\7월-6일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 1회차</a>
+<br><a data-tooltip-position="top" aria-label="7월 11일 모각코" data-href="7월 11일 모각코" href="team\utilclass\7월-11일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 2회차</a>
+<br><a data-tooltip-position="top" aria-label="7월 19일 모각코" data-href="7월 19일 모각코" href="team\utilclass\7월-19일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 3회차</a>
+<br><a data-tooltip-position="top" aria-label="7월 26일 모각코" data-href="7월 26일 모각코" href="team\utilclass\7월-26일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 4회차</a>
+<br><a data-tooltip-position="top" aria-label="8월 2일 모각코" data-href="8월 2일 모각코" href="team\utilclass\8월-2일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 5회차</a>
+<br><a data-tooltip-position="top" aria-label="8월 9일 모각코" data-href="8월 9일 모각코" href="team\utilclass\8월-9일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 6회차</a>
+]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Tue, 30 Jul 2024 07:34:05 GMT</pubDate></item><item><title><![CDATA[4주차 활동 내용]]></title><description><![CDATA[ 
  <br><br><br>
 <br>
 <br>]]></description><link>jiyeol'sblog\4주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/4주차 활동 내용.md</guid><pubDate>Tue, 30 Jul 2024 06:52:38 GMT</pubDate></item><item><title><![CDATA[5주차 활동 내용]]></title><description><![CDATA[ 
@@ -52,15 +110,7 @@
 <br>8월 7일 / 19:00 ~ 22:00 - 6주차: 
 <br><br>
 <br>회고회고회고
-]]></description><link>team\utilclass\모각코-유틸-클래스-팀-소개.html</link><guid isPermaLink="false">team/UtilClass/모각코 유틸 클래스 팀 소개.md</guid><pubDate>Tue, 30 Jul 2024 06:50:00 GMT</pubDate></item><item><title><![CDATA[모각코 활동 기록]]></title><description><![CDATA[ 
- <br><br>유틸 클래스 팀의 모각코 활동을 소개하는 페이지<br><br>
-<br><a data-tooltip-position="top" aria-label="모각코 유틸 클래스 팀 소개" data-href="모각코 유틸 클래스 팀 소개" href="team\utilclass\모각코-유틸-클래스-팀-소개.html" class="internal-link" target="_self" rel="noopener">팀 소개</a>
-<br>
-<br><a data-tooltip-position="top" aria-label="7월 6일 모각코" data-href="7월 6일 모각코" href="team\utilclass\7월-6일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 1회차</a>
-<br><a data-tooltip-position="top" aria-label="7월 11일 모각코" data-href="7월 11일 모각코" href="team\utilclass\7월-11일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 2회차</a>
-<br><a data-tooltip-position="top" aria-label="7월 19일 모각코" data-href="7월 19일 모각코" href="team\utilclass\7월-19일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 3회차</a>
-<br><a data-tooltip-position="top" aria-label="7월 26일 모각코" data-href="7월 26일 모각코" href="team\utilclass\7월-26일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 4회차</a>
-]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Tue, 30 Jul 2024 06:55:49 GMT</pubDate></item><item><title><![CDATA[2주차 활동 내용]]></title><description><![CDATA[ 
+]]></description><link>team\utilclass\모각코-유틸-클래스-팀-소개.html</link><guid isPermaLink="false">team/UtilClass/모각코 유틸 클래스 팀 소개.md</guid><pubDate>Tue, 30 Jul 2024 06:50:00 GMT</pubDate></item><item><title><![CDATA[2주차 활동 내용]]></title><description><![CDATA[ 
  <br><br>
 <br>각자 맡은 음성 패턴 인식 파트 공부하기
 <br><br>
