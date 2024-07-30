@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "jiyeol'sblog/3주차 활동 내용.md",
                 "mode": "preview",
                 "source": true
               }
@@ -58,6 +58,14 @@
             }
           },
           {
+            "id": "af58cda6eb1f8d35",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
             "id": "282785a1bb3d0704",
             "type": "leaf",
             "state": {
@@ -93,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "team/UtilClass/7월 11일 모각코.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "team/UtilClass/7월 11일 모각코.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "team/UtilClass/7월 11일 모각코.md"
+                "file": "index.md"
               }
             }
           }
@@ -163,51 +171,20 @@
     "type": "floating",
     "children": [
       {
-        "id": "58c6e80d895efc9c",
+        "id": "d44ee7d6f63b4230",
         "type": "window",
         "children": [
           {
-            "id": "c8d2f899af8a045a",
+            "id": "d072efd03c238a6a",
             "type": "tabs",
             "children": [
               {
-                "id": "f0530ae301e1b746",
+                "id": "07aa6b39d8796daa",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "team/UtilClass/7월 11일 모각코.md",
-                    "mode": "source",
-                    "source": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 316,
-        "y": 316,
-        "width": 908,
-        "height": 503,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
-        "id": "f9c8a7740c1a9a11",
-        "type": "window",
-        "children": [
-          {
-            "id": "14a8e757e365f79f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2de3413736f3606c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "team/UtilClass/7월 11일 모각코.md",
+                    "file": "index.md",
                     "mode": "source",
                     "source": true
                   }
@@ -226,16 +203,26 @@
       }
     ]
   },
-  "active": "2de3413736f3606c",
+  "active": "07aa6b39d8796daa",
   "lastOpenFiles": [
-    "team/UtilClass/7월 6일 모각코.md",
-    "jiyeol'sblog/2주차 활동 내용.md",
-    "index.md",
-    "jiyeol'sblog/3주차 활동 내용.md",
-    "jiyeol'sblog/1주차 활동 내용.md",
-    "team/UtilClass/7월 19일 모각코.md",
-    "team/UtilClass/7월 11일 모각코.md",
     "team/UtilClass/모각코 유틸 클래스 팀 소개.md",
+    "team/UtilClass/8월 9일 모각코.md",
+    "team/UtilClass/8월 2일 모각코.md",
+    "team/UtilClass/7월 26일 모각코.md",
+    "jiyeol'sblog/6주차 활동 내용.md",
+    "jiyeol'sblog/5주차 활동 내용.md",
+    "jiyeol'sblog/3주차 활동 내용.md",
+    "team/UtilClass/7월 19일 모각코.md",
+    "index.md",
+    "team/UtilClass/7월 6일 모각코.md",
+    "team/UtilClass/7월 11일 모각코.md",
+    "jiyeol'sblog/4주차 활동 내용.md",
+    "jiyeol'sblog/2주차 활동 내용.md",
+    "jiyeol'sblog/1주차 활동 내용.md",
+    "Untitled 2",
+    "jiyeol'sblog/Untitled 1 1",
+    "jiyeol'sblog/Untitled 1",
+    "Untitled",
     "docs/lib/media/image3.png",
     "image/Pasted image 20240714164931.png",
     "Vault.md",
@@ -256,14 +243,10 @@
     "7월 9일 모각코.md",
     "team/UtilClass/index.md",
     "team/UtilClass",
-    "team",
     "test.md",
     "README.md",
     "이름 없는 보드.md",
     "이름 없는 보드 1.md",
-    "docs/lib/search-index.json",
-    "docs/lib/metadata.json",
-    "docs/lib/styles/obsidian.css",
     "2024-06-26.md"
   ]
 }
