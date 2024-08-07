@@ -46,7 +46,8 @@
     "//docs/docs/team/docs/team/utilclass",
     "//image",
     "//docs/docs/jiyeol'sblog",
-    "/"
+    "/",
+    "//jiyeol'sblog"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

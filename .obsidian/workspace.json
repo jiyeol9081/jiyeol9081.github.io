@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jiyeol'sblog/3주차 활동 내용.md",
+                "file": "team/UtilClass/7월 26일 모각코.md",
                 "mode": "preview",
                 "source": true
               }
@@ -81,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "team/UtilClass/7월 26일 모각코.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "team/UtilClass/7월 26일 모각코.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "team/UtilClass/7월 26일 모각코.md"
               }
             }
           }
@@ -166,59 +167,22 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "2596dc4d99d959e1",
-    "type": "floating",
-    "children": [
-      {
-        "id": "d44ee7d6f63b4230",
-        "type": "window",
-        "children": [
-          {
-            "id": "d072efd03c238a6a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "07aa6b39d8796daa",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "index.md",
-                    "mode": "source",
-                    "source": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 317,
-        "y": 316,
-        "width": 902,
-        "height": 500,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "07aa6b39d8796daa",
+  "active": "874bad30a94adb38",
   "lastOpenFiles": [
     "team/UtilClass/모각코 유틸 클래스 팀 소개.md",
-    "team/UtilClass/8월 9일 모각코.md",
-    "team/UtilClass/8월 2일 모각코.md",
     "team/UtilClass/7월 26일 모각코.md",
+    "team/UtilClass/7월 11일 모각코.md",
+    "team/UtilClass/7월 19일 모각코.md",
+    "team/UtilClass/8월 2일 모각코.md",
+    "jiyeol'sblog/1주차 활동 내용.md",
+    "jiyeol'sblog/2주차 활동 내용.md",
+    "jiyeol'sblog/3주차 활동 내용.md",
+    "jiyeol'sblog/4주차 활동 내용.md",
+    "team/UtilClass/7월 6일 모각코.md",
+    "index.md",
+    "team/UtilClass/8월 9일 모각코.md",
     "jiyeol'sblog/6주차 활동 내용.md",
     "jiyeol'sblog/5주차 활동 내용.md",
-    "jiyeol'sblog/3주차 활동 내용.md",
-    "team/UtilClass/7월 19일 모각코.md",
-    "index.md",
-    "team/UtilClass/7월 6일 모각코.md",
-    "team/UtilClass/7월 11일 모각코.md",
-    "jiyeol'sblog/4주차 활동 내용.md",
-    "jiyeol'sblog/2주차 활동 내용.md",
-    "jiyeol'sblog/1주차 활동 내용.md",
     "Untitled 2",
     "jiyeol'sblog/Untitled 1 1",
     "jiyeol'sblog/Untitled 1",
