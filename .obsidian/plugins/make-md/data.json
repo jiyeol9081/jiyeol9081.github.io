@@ -47,7 +47,11 @@
     "//image",
     "//docs/docs/jiyeol'sblog",
     "/",
-    "//jiyeol'sblog"
+    "//jiyeol'sblog",
+    "//Tags",
+    "//docs",
+    "//docs/docs/lib",
+    "//docs/docs/lib/docs/lib/media"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

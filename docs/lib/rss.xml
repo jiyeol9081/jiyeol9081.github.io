@@ -1,4 +1,47 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiyeol9081.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiyeol9081.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 07 Aug 2024 09:46:43 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 07 Aug 2024 09:46:41 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[7월 26일 모각코]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiyeol9081.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiyeol9081.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 16 Aug 2024 16:48:32 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 16 Aug 2024 16:48:27 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[4주차 활동 내용]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>speechbrain에서 각자 맡은 역할에 대한 모델 공부하기
+<br><br> speechbrain.processing.diarization module<br>
+<br>class
+<br>
+<br>spec_clust_unorm: 이 클래스는 비정규화된 친화도 행렬을 사용하여 스펙트럼 클러스터링을 구현한다
+<br>spec_cluster: 임베딩에서 sklearn을 사용하여 스펙트럼 클러스터링을 수행한다.
+<br>
+<br>함수
+<br>
+<br>read_rttm: RTTM을 목록 형식으로 읽고 반환한 다.
+<br>write_ders_file: 개별 녹음을 위한 최종 DER을 작성한다.
+<br>prepare_subset_csv: 지정된 레코딩 ID에 대한 csv를 준비한다.
+<br>is_overlapped: 세그먼트가 겹치는 경우 True를 반환한다.
+<br>merge_ssegs_same_speaker: 동일한 스피커에서 인접한 하위 세그먼트를 병합한다.
+<br>distribute_overlap: 서로 다른 화자가 있는 인접 세그먼트 간에 겹쳐진 음성을 균등하게 분배한다.
+<br>.write_rttm: 세그먼트 목록을 RTTM 형식(표준 NIST 형식)으로 쓴다.
+<br>get_oracle_num_spkrs: 실측 자료에서 녹음의 실제 화자 수를 반환한다.
+<br>spectral_embedding_sb: 스펙트럼 임베딩을 반환한다.
+<br>spectral_clustering_sb: 스펙트럼 클러스터링을 수행한다.
+<br>do_spec_clustering: 임베딩에 대해 스펙트럼 클러스터링을 수행한다.
+<br>do_kmeans_clustering: 임베딩에 대해 kmeans 클러스터링을 수행한다.
+<br>do_AHC: 임베딩에 대해 Agglomerative Hierarchical Clustering을 수행한다.
+]]></description><link>jiyeol'sblog\4주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/4주차 활동 내용.md</guid><pubDate>Fri, 16 Aug 2024 16:36:43 GMT</pubDate></item><item><title><![CDATA[5주차 활동 내용]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>각자 역할에 대한 코드 작성 및 이해하기
+<br><br>
+<br>is_overlapped: 세그먼트가 겹치는 경우 True를 반환한다.<br>
+<img alt="image5.1.png" src="lib\media\image5.1.png">
+<br>merge_ssegs_same_speaker: 동일한 스피커에서 인접한 하위 세그먼트를 병합한다.<br>
+<img alt="image5.2.png" src="lib\media\image5.2.png">
+<br>distribute_overlap: 겹쳐진 음성을 다른 스피커와 함께 인접 세그먼트 간에 균등하게 분배한다.<br>
+<img alt="image5.3.png" src="lib\media\image5.3.png">
+<br>get_oracle_num_spkrs: 실측 자료에서 녹음의 실제 화자 수를 반환한다. 조건이 oracle number of speakers일 때 사용할 수 있다.<br>
+<img alt="image5.4.png" src="lib\media\image5.4.png">
+<br>spectral_embedding_sb: 스펙트럼 임베딩을 반환한다.<br>
+<img alt="image5.5.png" src="lib\media\image5.5.png">
+<br>spectral_clustering_sb: 스펙트럼 클러스터링을 수행한다.<br>
+<img alt="image5.6.png" src="lib\media\image5.6.png">
+]]></description><link>jiyeol'sblog\5주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/5주차 활동 내용.md</guid><pubDate>Fri, 16 Aug 2024 16:45:57 GMT</pubDate><enclosure url="lib\media\image5.1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image5.1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[6주차 활동 내용]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>코드 작성 마무리 및 각자 이해한 내용 발표하기
+<br>]]></description><link>jiyeol'sblog\6주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/6주차 활동 내용.md</guid><pubDate>Fri, 16 Aug 2024 16:47:48 GMT</pubDate></item><item><title><![CDATA[7월 26일 모각코]]></title><description><![CDATA[ 
  <br><br>
 <br>
 활동 일시: 7월 26일(금) / 14:00 ~ 17:00
@@ -10,8 +53,34 @@
 <br><a data-tooltip-position="top" aria-label="https://jiyeol9081.github.io/jiyeol'sblog/4%EC%A3%BC%EC%B0%A8-%ED%99%9C%EB%8F%99-%EB%82%B4%EC%9A%A9" rel="noopener" class="external-link" href="https://jiyeol9081.github.io/jiyeol'sblog/4%EC%A3%BC%EC%B0%A8-%ED%99%9C%EB%8F%99-%EB%82%B4%EC%9A%A9" target="_blank">박지열(팀장) 4주차 활동 내용</a>
 <br><a data-tooltip-position="top" aria-label="https://ledn05.tistory.com/4" rel="noopener" class="external-link" href="https://ledn05.tistory.com/4" target="_blank">이동순 4주차 활동 내용</a>
 <br><a data-tooltip-position="top" aria-label="https://blummerhen.tistory.com/4" rel="noopener" class="external-link" href="https://blummerhen.tistory.com/4" target="_blank">김민준 4주차 활동 내용</a>
-<br><a data-tooltip-position="top" aria-label="https://m.blog.naver.com/qwert0483/223518676900" rel="noopener" class="external-link" href="https://m.blog.naver.com/qwert0483/223518676900" target="_blank">정수빈 4주차 활동 내용</a>
-]]></description><link>team\utilclass\7월-26일-모각코.html</link><guid isPermaLink="false">team/UtilClass/7월 26일 모각코.md</guid><pubDate>Wed, 07 Aug 2024 09:46:09 GMT</pubDate></item><item><title><![CDATA[모각코 유틸 클래스 팀 소개]]></title><description><![CDATA[ 
+<br><a data-tooltip-position="top" aria-label="https://m.blog.naver.com/qwert0483/223540230481" rel="noopener" class="external-link" href="https://m.blog.naver.com/qwert0483/223540230481" target="_blank">정수빈 4주차 활동 내용</a>
+<br><br><img alt="image 4.png" src="lib\media\image-4.png">]]></description><link>team\utilclass\7월-26일-모각코.html</link><guid isPermaLink="false">team/UtilClass/7월 26일 모각코.md</guid><pubDate>Fri, 16 Aug 2024 14:53:48 GMT</pubDate><enclosure url="lib\media\image-4.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image-4.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[8월 2일 모각코]]></title><description><![CDATA[ 
+ <br><br>
+<br>
+활동 일시: 8월 2일(금) / 14:00 ~ 17:00
+
+<br>
+5주차 목표: 각자 역할에 대한 코드 작성 및 이해하기
+
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://jiyeol9081.github.io/jiyeol'sblog/5%EC%A3%BC%EC%B0%A8-%ED%99%9C%EB%8F%99-%EB%82%B4%EC%9A%A9" rel="noopener" class="external-link" href="https://jiyeol9081.github.io/jiyeol'sblog/5%EC%A3%BC%EC%B0%A8-%ED%99%9C%EB%8F%99-%EB%82%B4%EC%9A%A9" target="_blank">박지열(팀장) 5주차 활동 내용</a>
+<br><a data-tooltip-position="top" aria-label="https://ledn05.tistory.com/5" rel="noopener" class="external-link" href="https://ledn05.tistory.com/5" target="_blank">이동순 5주차 활동 내용</a>
+<br><a data-tooltip-position="top" aria-label="https://blummerhen.tistory.com/5" rel="noopener" class="external-link" href="https://blummerhen.tistory.com/5" target="_blank">김민준 5주차 활동 내용</a>
+<br><a data-tooltip-position="top" aria-label="https://m.blog.naver.com/qwert0483/223548248854" rel="noopener" class="external-link" href="https://m.blog.naver.com/qwert0483/223548248854" target="_blank">정수빈 5주차 활동 내용</a>
+<br><br><img alt="image5.png" src="lib\media\image5.png">]]></description><link>team\utilclass\8월-2일-모각코.html</link><guid isPermaLink="false">team/UtilClass/8월 2일 모각코.md</guid><pubDate>Fri, 16 Aug 2024 14:54:51 GMT</pubDate><enclosure url="lib\media\image5.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image5.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[8월 9일 모각코]]></title><description><![CDATA[ 
+ <br><br>
+<br>
+활동 일시: 8월 9일(금) / 14:00 ~ 17:00
+
+<br>
+6주차 목표: 코드 작성 마무리 및 각자 이해한 내용 발표하기
+
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://jiyeol9081.github.io/jiyeol'sblog/6%EC%A3%BC%EC%B0%A8-%ED%99%9C%EB%8F%99-%EB%82%B4%EC%9A%A9" rel="noopener" class="external-link" href="https://jiyeol9081.github.io/jiyeol'sblog/6%EC%A3%BC%EC%B0%A8-%ED%99%9C%EB%8F%99-%EB%82%B4%EC%9A%A9" target="_blank">박지열(팀장) 6주차 활동 내용</a>
+<br><a data-tooltip-position="top" aria-label="https://ledn05.tistory.com/6" rel="noopener" class="external-link" href="https://ledn05.tistory.com/6" target="_blank">이동순 6주차 활동 내용</a>
+<br><a data-tooltip-position="top" aria-label="https://blummerhen.tistory.com/6" rel="noopener" class="external-link" href="https://blummerhen.tistory.com/6" target="_blank">김민준 6주차 활동 내용</a>
+<br><a data-tooltip-position="top" aria-label="https://m.blog.naver.com/qwert0483/223548250879" rel="noopener" class="external-link" href="https://m.blog.naver.com/qwert0483/223548250879" target="_blank">정수빈 6주차 활동 내용</a>
+<br>]]></description><link>team\utilclass\8월-9일-모각코.html</link><guid isPermaLink="false">team/UtilClass/8월 9일 모각코.md</guid><pubDate>Fri, 16 Aug 2024 14:56:45 GMT</pubDate></item><item><title><![CDATA[모각코 유틸 클래스 팀 소개]]></title><description><![CDATA[ 
  <br><br>
 <br>팀장: 박지열
 <br>팀원: 이동순, 정수빈, 김민준 
@@ -21,11 +90,12 @@
 <br>7월 11일 / 14:00 ~ 17:00 - 2주차: 각자 맡은 음성 패턴 인식 파트 공부하기
 <br>7월 19일 / 19:00 ~ 22:00 - 3주차: 음성 패턴 인식 라이브러리 공부하기
 <br>7월 26일 / 19:00 ~ 22:00 - 4주차: speechbrain에서 각자 맡은 역할에 대한 모델 공부하기
-<br>8월 2일 / 19:00 ~ 22:00 - 5주차: 
-<br>8월 7일 / 19:00 ~ 22:00 - 6주차: 
+<br>8월 2일 / 19:00 ~ 22:00 - 5주차: 각자 역할에 대한 코드 작성 및 이해하기
+<br>8월 7일 / 19:00 ~ 22:00 - 6주차: 코드 작성 마무리 및 각자 이해한 내용 발표하기
 <br><br>
-<br>회고회고회고
-]]></description><link>team\utilclass\모각코-유틸-클래스-팀-소개.html</link><guid isPermaLink="false">team/UtilClass/모각코 유틸 클래스 팀 소개.md</guid><pubDate>Wed, 07 Aug 2024 09:44:41 GMT</pubDate></item><item><title><![CDATA[3주차 활동 내용]]></title><description><![CDATA[ 
+<br>
+]]></description><link>team\utilclass\모각코-유틸-클래스-팀-소개.html</link><guid isPermaLink="false">team/UtilClass/모각코 유틸 클래스 팀 소개.md</guid><pubDate>Fri, 16 Aug 2024 14:57:15 GMT</pubDate></item><item><title><![CDATA[Vault]]></title><description><![CDATA[ 
+ ]]></description><link>vault.html</link><guid isPermaLink="false">Vault.md</guid><pubDate>Fri, 16 Aug 2024 14:50:37 GMT</pubDate></item><item><title><![CDATA[3주차 활동 내용]]></title><description><![CDATA[ 
  <br><br>
 <br>음성 패턴 인식 라이브러리 공부하기
 <br><br>
@@ -90,32 +160,7 @@ STT
 <br><a data-tooltip-position="top" aria-label="7월 26일 모각코" data-href="7월 26일 모각코" href="team\utilclass\7월-26일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 4회차</a>
 <br><a data-tooltip-position="top" aria-label="8월 2일 모각코" data-href="8월 2일 모각코" href="team\utilclass\8월-2일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 5회차</a>
 <br><a data-tooltip-position="top" aria-label="8월 9일 모각코" data-href="8월 9일 모각코" href="team\utilclass\8월-9일-모각코.html" class="internal-link" target="_self" rel="noopener">모각코 6회차</a>
-]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Tue, 30 Jul 2024 07:34:05 GMT</pubDate></item><item><title><![CDATA[4주차 활동 내용]]></title><description><![CDATA[ 
- <br><br><br>
-<br>
-<br>]]></description><link>jiyeol'sblog\4주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/4주차 활동 내용.md</guid><pubDate>Tue, 30 Jul 2024 06:52:38 GMT</pubDate></item><item><title><![CDATA[5주차 활동 내용]]></title><description><![CDATA[ 
- <br><br><br>
-<br>미정
-<br>]]></description><link>jiyeol'sblog\5주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/5주차 활동 내용.md</guid><pubDate>Tue, 30 Jul 2024 06:53:04 GMT</pubDate></item><item><title><![CDATA[6주차 활동 내용]]></title><description><![CDATA[ 
- <br><br><br>
-<br>미정
-<br>]]></description><link>jiyeol'sblog\6주차-활동-내용.html</link><guid isPermaLink="false">jiyeol'sblog/6주차 활동 내용.md</guid><pubDate>Tue, 30 Jul 2024 06:53:44 GMT</pubDate></item><item><title><![CDATA[8월 2일 모각코]]></title><description><![CDATA[ 
- <br><br>
-<br>
-활동 일시: 8월 2일(금) / 14:00 ~ 17:00
-
-<br>
-5주차 목표: 
-
-<br>]]></description><link>team\utilclass\8월-2일-모각코.html</link><guid isPermaLink="false">team/UtilClass/8월 2일 모각코.md</guid><pubDate>Tue, 30 Jul 2024 06:58:59 GMT</pubDate></item><item><title><![CDATA[8월 9일 모각코]]></title><description><![CDATA[ 
- <br><br>
-<br>
-활동 일시: 8월 9일(금) / 14:00 ~ 17:00
-
-<br>
-6주차 목표: 
-
-<br>]]></description><link>team\utilclass\8월-9일-모각코.html</link><guid isPermaLink="false">team/UtilClass/8월 9일 모각코.md</guid><pubDate>Tue, 30 Jul 2024 06:58:52 GMT</pubDate></item><item><title><![CDATA[2주차 활동 내용]]></title><description><![CDATA[ 
+]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Tue, 30 Jul 2024 07:34:05 GMT</pubDate></item><item><title><![CDATA[2주차 활동 내용]]></title><description><![CDATA[ 
  <br><br>
 <br>각자 맡은 음성 패턴 인식 파트 공부하기
 <br><br>
